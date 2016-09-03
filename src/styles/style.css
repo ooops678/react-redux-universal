@@ -1,0 +1,58 @@
+html, body {
+    box-sizing: border-box;
+    background-color: #F6F6F6;
+}
+
+nav {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: white;
+    transition: color .3s;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav a.active, nav a:hover {
+    color: orangered;
+}
+
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/view.jpeg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+}
